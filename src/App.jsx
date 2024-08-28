@@ -1,16 +1,6 @@
-import Header from './components/Header';
+import Header from "./components/Header";
+import CoreConcept from "./components/CoreConcept";
 import { CORE_CONCEPTS } from "./data";
-
-
-function CoreConcept({image, title, description}) {
-  return (
-    <li>
-      <img src={image} alt={title} />
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </li>
-  );
-}
 
 function App() {
   return (
