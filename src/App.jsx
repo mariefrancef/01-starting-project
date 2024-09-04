@@ -68,6 +68,7 @@ function App() {
             </TabButton>
           </menu>
           {tabContent}
+
           {/* 2 ternary expressions in js, alternative to the variable tabContent :
           {!selectedTopic && <p>Please select a topic.</p>}
           {selectedTopic ? (
