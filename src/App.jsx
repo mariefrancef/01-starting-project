@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, Fragment } from "react";
 import Header from "./components/Header/Header";
 import CoreConcept from "./components/CoreConcept/CoreConcept";
 import TabButton from "./components/TabButton";
@@ -29,7 +29,12 @@ function App() {
 
   return (
     // JSX expression must have one parent element : like <div>
-    <div>
+    //<div>
+
+    // Or can use Fragment, for having any unnecessary div in the browser
+
+    // or juste have <> </> for remplace div/fragment in the code (alternative to the fragment)
+    <Fragment>
       <Header />
       <main>
         <section id="core-concepts">
@@ -83,7 +88,8 @@ function App() {
           ) : null} */}
         </section>
       </main>
-    </div>
+    </Fragment>
+    //</div>
   );
 }
 
