@@ -28,6 +28,7 @@ function App() {
   }
 
   return (
+    // JSX expression must have one parent element : like <div>
     <div>
       <Header />
       <main>
