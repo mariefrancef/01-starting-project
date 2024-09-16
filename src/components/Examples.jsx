@@ -30,7 +30,7 @@ export default function Examples() {
   return (
     <Section title="Examples" id="examples">
       <Tabs
-        buttonsContainer="menu" //string(integrated element) or object(cutsom component) -> "menu" or {Section}
+        //buttonsContainer="menu" //string(integrated element) or object(cutsom component) -> "menu" or {Section}
         buttons={
           <>
             <TabButton
